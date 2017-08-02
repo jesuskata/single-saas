@@ -17,7 +17,7 @@ gem 'uglifier', '3.2.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-# Use jQury as JavaScript library
+# Use jQuery as JavaScript library
 gem 'jquery-rails', '4.3.1'
 
 # Use CoffeeScript for .coffee assets and views
