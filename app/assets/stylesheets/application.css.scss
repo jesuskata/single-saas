@@ -29,7 +29,7 @@ h1, h2, h3 {
     // Gradient created by https://twitter.com/_ighosh in UIGradients.com
     background: #00c6ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #0072ff, #00C5FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 // Navbar Styles
@@ -44,6 +44,18 @@ h1, h2, h3 {
         color: white;
         opacity: 0.75;
     }
+}
+
+.navbar-default .navbar-toggle,
+ {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #00c6ff;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
 }
 
 .navbar-brand {
